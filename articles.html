@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parimal Bhakare | Articles</title>
+    <meta
+      name="description"
+      content="Articles and blogs by Parimal Bhakare on policy, governance, and public systems."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+
+    <header class="site-header">
+      <a class="logo" href="./index.html" data-setting="siteName">Parimal Bhakare</a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="./index.html#about">About</a>
+        <a href="./index.html#experience">Experience</a>
+        <a href="./index.html#projects">Projects</a>
+        <a href="./articles.html">Articles</a>
+        <a href="./editor.html">Editor</a>
+        <a href="./index.html#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-ghost" data-link="cv" href="./Parimal_Bhakare_CV3.pdf" download>Download CV</a>
+        <a class="btn btn-outline" data-link="linkedin" href="https://www.linkedin.com/in/parimalbhakare/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section articles-hero">
+        <p class="eyebrow reveal">Writing Hub</p>
+        <h1 class="reveal" data-setting="articlesTitle">Blogs and articles on policy, governance, and implementation.</h1>
+        <p class="hero-copy reveal" data-setting="articlesSubtitle">
+          This page is designed for continuous updates. Add or edit entries from the visual editor.
+        </p>
+      </section>
+
+      <section class="section" id="articles-list-section">
+        <div class="section-head reveal">
+          <p class="eyebrow">Latest Posts</p>
+          <h2>Published and in-progress writing</h2>
+        </div>
+        <div id="articles-list" class="articles-grid reveal"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>COPYRIGHT <span id="year"></span> <span data-footer-name>Parimal Bhakare</span>. All rights reserved.</p>
+      <div class="social-links">
+        <a href="./index.html">Portfolio</a>
+        <a data-link="linkedin" href="https://www.linkedin.com/in/parimalbhakare/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </footer>
+
+    <script src="./articles-data.js"></script>
+    <script src="./site-settings.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
